@@ -1,0 +1,218 @@
+{
+  "identifying heterophilic neighbors via confidence based subgraph matching for graph neural networks": {
+    "title": "Identifying heterophilic neighbors via confidence-based subgraph matching for graph neural networks.",
+    "venue": "AIJ",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:37:14.806756+00:00"
+  },
+  "context aware graph neural network for graph based fraud detection with extremely limited labels": {
+    "title": "Context-aware Graph Neural Network for Graph-based Fraud Detection with Extremely Limited Labels",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "local homophily aware graph neural network with adaptive polynomial filters for scalable graph anomaly detection": {
+    "title": "Local Homophily-Aware Graph Neural Network with Adaptive Polynomial Filters for Scalable Graph Anomaly Detection",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "anomalygfm graph foundation model for zero few shot anomaly detection": {
+    "title": "AnomalyGFM: Graph Foundation Model for Zero/Few-shot Anomaly Detection",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "ia ggad zero shot generalist graph anomaly detection via invariant and affinity learning": {
+    "title": "IA-GGAD: Zero-shot Generalist Graph Anomaly Detection via Invariant and Affinity Learning",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "graph anomaly detection with domain agnostic pre training and few shot adaptation": {
+    "title": "Graph Anomaly Detection with Domain-Agnostic Pre-Training and Few-Shot Adaptation",
+    "venue": "ICDE",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "from few shot to zero shot towards generalist graph anomaly detection": {
+    "title": "From Few-Shot to Zero-Shot: Towards Generalist Graph Anomaly Detection",
+    "venue": "TKDE",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "kernel aware graph prompt learning for few shot anomaly detection": {
+    "title": "Kernel-Aware Graph Prompt Learning for Few-Shot Anomaly Detection",
+    "venue": "AAAI",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "multi dimensional adaptive mix hop contextual learning framework for universal graph anomaly detection": {
+    "title": "Multi-dimensional Adaptive Mix-hop Contextual Learning Framework for Universal Graph Anomaly Detection",
+    "venue": "AAAI",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "disentangled generation based prototypical alignment for few shot unsupervised domain adaptation in graph level anomaly detection": {
+    "title": "Disentangled Generation-Based Prototypical Alignment for Few-Shot Unsupervised Domain Adaptation in Graph-Level Anomaly Detection",
+    "venue": "AAAI",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "affinitytune a prompt tuning framework for few shot anomaly detection on graphs": {
+    "title": "AffinityTune: A Prompt-Tuning Framework for Few-Shot Anomaly Detection on Graphs",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "flag fraud detection with llm enhanced graph neural network": {
+    "title": "FLAG: Fraud Detection with LLM-enhanced Graph Neural Network",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "a novel graph learning framework for interpretable and imbalance financial fraud detection": {
+    "title": "A novel graph learning framework for interpretable and imbalance financial fraud detection.",
+    "venue": "AIJ",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "real time dynamic graph learning with temporal attention for financial fraud detection": {
+    "title": "Real-time dynamic graph learning with temporal attention for financial fraud detection.",
+    "venue": "AIJ",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "dgp a dual granularity prompting framework for fraud detection with graph enhanced llms": {
+    "title": "DGP: A Dual-Granularity Prompting Framework for Fraud Detection with Graph-Enhanced LLMs.",
+    "venue": "AAAI",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "balanced anomaly guided ego graph diffusion model for inductive graph anomaly detection": {
+    "title": "Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection.",
+    "venue": "SIGKDD",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "anomaly edge detection in dynamic graphs based on hyperbolic graph neural networks": {
+    "title": "Anomaly Edge Detection in Dynamic Graphs Based on Hyperbolic Graph Neural Networks.",
+    "venue": "SIGKDD",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "leveraging diffusion model as pseudo anomalous graph generator for graph level anomaly detection": {
+    "title": "Leveraging Diffusion Model as Pseudo-Anomalous Graph Generator for Graph-Level Anomaly Detection.",
+    "venue": "ICML",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "how to use graph data in the wild to help graph anomaly detection": {
+    "title": "How to use Graph Data in the Wild to Help Graph Anomaly Detection?",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "chi square wavelet graph neural networks for heterogeneous graph anomaly detection": {
+    "title": "Chi-Square Wavelet Graph Neural Networks for Heterogeneous Graph Anomaly Detection.",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "self perturbed anomaly aware graph dynamics for multivariate time series anomaly detection": {
+    "title": "Self-Perturbed Anomaly-Aware Graph Dynamics for Multivariate Time-Series Anomaly Detection.",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "from pixels to graphs deep graph level anomaly detection on dermoscopic images": {
+    "title": "From Pixels to Graphs: Deep Graph-Level Anomaly Detection on Dermoscopic Images.",
+    "venue": "SIGKDD",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "ada gad anomaly denoised autoencoders for graph anomaly detection": {
+    "title": "ADA-GAD: Anomaly-Denoised Autoencoders for Graph Anomaly Detection.",
+    "venue": "AAAI",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "graph anomaly detection with diffusion model based graph enhancement student abstract": {
+    "title": "Graph Anomaly Detection with Diffusion Model-Based Graph Enhancement (Student Abstract).",
+    "venue": "AAAI",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "environment promoted invariant information learning for graph out of distribution generalization": {
+    "title": "Environment promoted invariant information learning for graph out-of-distribution generalization.",
+    "venue": "AIJ",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "invariant graph transformer for out of distribution generalization": {
+    "title": "Invariant Graph Transformer for Out-of-Distribution Generalization.",
+    "venue": "SIGKDD",
+    "year": 2026,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "subgraph aggregation for out of distribution generalization on graphs": {
+    "title": "Subgraph Aggregation for Out-of-Distribution Generalization on Graphs.",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "out of distribution generalization on graphs via progressive inference": {
+    "title": "Out-of-Distribution Generalization on Graphs via Progressive Inference.",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "expand horizon graph out of distribution generalization via multi level environment inference": {
+    "title": "Expand Horizon: Graph Out-of-Distribution Generalization via Multi-Level Environment Inference.",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "fedgog federated graph out of distribution generalization with diffusion data exploration and latent embedding decorrelation": {
+    "title": "FedGOG: Federated Graph Out-of-Distribution Generalization with Diffusion Data Exploration and Latent Embedding Decorrelation.",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "graph invariant learning with subgraph co mixup for out of distribution generalization": {
+    "title": "Graph Invariant Learning with Subgraph Co-mixup for Out-of-Distribution Generalization.",
+    "venue": "AAAI",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "improving out of distribution generalization in graphs via hierarchical semantic environments": {
+    "title": "Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments.",
+    "venue": "CVPR",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "disentangled graph self supervised learning for out of distribution generalization": {
+    "title": "Disentangled Graph Self-supervised Learning for Out-of-Distribution Generalization.",
+    "venue": "ICML",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "graph structure extrapolation for out of distribution generalization": {
+    "title": "Graph Structure Extrapolation for Out-of-Distribution Generalization.",
+    "venue": "ICML",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "dive subgraph disagreement for graph out of distribution generalization": {
+    "title": "DIVE: Subgraph Disagreement for Graph Out-of-Distribution Generalization.",
+    "venue": "SIGKDD",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "negative as positive enhancing out of distribution generalization for graph contrastive learning": {
+    "title": "Negative as Positive: Enhancing Out-of-distribution Generalization for Graph Contrastive Learning.",
+    "venue": "SIGIR",
+    "year": 2024,
+    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  }
+}
