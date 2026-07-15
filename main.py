@@ -58,9 +58,10 @@ def main():
     title = f"CCF-A 文献监控周报 ({mode_label})" if mode_label == "weekly-fixed" else "CCF-A 文献检索结果 (手动)"
     md = render_markdown(new_records, title, run_date, keywords)
 
-    os.makedirs(config.OUTPUT_DIR, exist_ok=True)
+    out_dir = config.WEEKLY_OUTPUT_DIR if mode_label == "weekly-fixed" else config.OUTPUT_DIR
+    os.makedirs(out_dir, exist_ok=True)
     fname = datetime.now().strftime("%Y%m%d_%H%M%S") + f"_{mode_label}.md"
-    out_path = os.path.join(config.OUTPUT_DIR, fname)
+    out_path = os.path.join(out_dir, fname)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
 

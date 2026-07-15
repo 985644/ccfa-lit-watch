@@ -54,7 +54,8 @@ FIXED_KEYWORDS = [
 MIN_YEAR = 2024
 
 CACHE_PATH = "seen_cache.json"
-OUTPUT_DIR = "output"
+OUTPUT_DIR = "output"          # manual/ad-hoc searches (gitignored, local scratch)
+WEEKLY_OUTPUT_DIR = "reports"  # fixed weekly runs (tracked in git, committed by the cloud routine)
 
 S2_API_BASE = "https://api.semanticscholar.org/graph/v1/paper/search"
 DBLP_API_BASE = "https://dblp.org/search/publ/api"
