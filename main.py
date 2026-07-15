@@ -95,14 +95,14 @@ def main():
     title = f"CCF-A 文献监控周报 ({mode_label})" if mode_label == "weekly-fixed" else "CCF-A 文献检索结果 (手动)"
 
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    pdf_dir = os.path.join(config.PDF_DIR, f"{stamp}_{mode_label}")
+    pdf_dir = config.PDF_DIR  # flat folder, all runs accumulate PDFs directly here
     downloaded, missing = fetch_pdfs(all_selected, pdf_dir)
     print(f"PDFs downloaded (open-access only): {len(downloaded)} | no OA copy available: {len(missing)}")
 
     missing_docx_path = None
     if missing:
-        missing_md_path = os.path.join(pdf_dir, "missing_pdfs.md")
-        missing_docx_path = os.path.join(pdf_dir, "missing_pdfs.docx")
+        missing_md_path = os.path.join(pdf_dir, f"missing_pdfs_{stamp}_{mode_label}.md")
+        missing_docx_path = os.path.join(pdf_dir, f"missing_pdfs_{stamp}_{mode_label}.docx")
         write_missing_pdf_docx(missing, missing_md_path, missing_docx_path, run_date)
         print(f"Missing-PDF citation list written to: {missing_docx_path}")
 
