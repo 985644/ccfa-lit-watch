@@ -4,7 +4,7 @@ import requests
 
 from config import S2_API_BASE, VENUES, MIN_YEAR
 
-FIELDS = "title,authors,venue,year,url,abstract,externalIds,publicationDate"
+FIELDS = "title,authors,venue,year,url,abstract,externalIds,publicationDate,openAccessPdf"
 
 # Flatten venue -> aliases into a single list of (canonical_name, alias_lower) pairs
 _ALIAS_INDEX = [
@@ -72,6 +72,7 @@ def search_keyword(keyword, min_year=MIN_YEAR):
             "url": paper.get("url"),
             "abstract": paper.get("abstract"),
             "matched_keyword": keyword,
+            "oa_pdf_url": (paper.get("openAccessPdf") or {}).get("url"),
         })
     # be polite to the shared unauthenticated rate-limit pool
     time.sleep(3.0)

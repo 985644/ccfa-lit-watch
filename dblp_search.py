@@ -84,6 +84,7 @@ def search_keyword(keyword, min_year=MIN_YEAR, hits=100):
             "url": info.get("ee") or info.get("url"),
             "abstract": None,
             "matched_keyword": keyword,
+            "oa_pdf_url": None,
         })
     time.sleep(1.5)
     return results

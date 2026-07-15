@@ -1,8 +1,9 @@
 """Render a list of new-paper records into a markdown digest, grouped by venue."""
+import os
 from collections import defaultdict
 
 
-def render_markdown(records, title, run_date, keywords):
+def render_markdown(records, title, run_date, keywords, pdf_dir=None):
     lines = [f"# {title}", "", f"运行时间: {run_date}", "", f"检索关键词: {', '.join(keywords)}", ""]
 
     if not records:
@@ -32,6 +33,10 @@ def render_markdown(records, title, run_date, keywords):
                 lines.append(f"- 链接: {p.get('url')}")
             if p.get("doi"):
                 lines.append(f"- DOI: {p.get('doi')}")
+            if p.get("pdf_path"):
+                lines.append(f"- PDF: 已下载(开放获取) -> {p.get('pdf_path')}")
+            elif pdf_dir:
+                lines.append("- PDF: 无开放获取版本,见同目录 missing_pdfs.docx")
             if p.get("abstract"):
                 abstract = p["abstract"].strip().replace("\n", " ")
                 if len(abstract) > 400:

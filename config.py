@@ -50,12 +50,17 @@ FIXED_KEYWORDS = [
 
 # Only papers with a publication year at or after this are considered
 # (keeps the query focused on genuinely recent work rather than the full
-# citation history of each keyword).
-MIN_YEAR = 2024
+# citation history of each keyword). 2026 preferred, 2025 acceptable, nothing older.
+MIN_YEAR = 2025
+
+# Cap on how many papers to surface per keyword, preferring venue diversity
+# (distinct CCF-A venues before allowing a repeat) and newest year first.
+MAX_PER_KEYWORD = 5
 
 CACHE_PATH = "seen_cache.json"
 OUTPUT_DIR = "output"          # manual/ad-hoc searches (gitignored, local scratch)
 WEEKLY_OUTPUT_DIR = "reports"  # fixed weekly runs (tracked in git, committed by the cloud routine)
+PDF_DIR = "papers"             # downloaded open-access PDFs (gitignored — binary, not committed)
 
 S2_API_BASE = "https://api.semanticscholar.org/graph/v1/paper/search"
 DBLP_API_BASE = "https://dblp.org/search/publ/api"

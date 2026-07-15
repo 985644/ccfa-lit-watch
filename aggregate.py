@@ -37,12 +37,40 @@ def merge_duplicates(records):
                 existing["doi"] = r.get("doi")
             if not existing.get("url") and r.get("url"):
                 existing["url"] = r.get("url")
+            if not existing.get("oa_pdf_url") and r.get("oa_pdf_url"):
+                existing["oa_pdf_url"] = r.get("oa_pdf_url")
     merged = []
     for rec in by_title.values():
         rec["matched_keywords"] = sorted(rec["matched_keywords"])
         rec["sources"] = sorted(rec["sources"])
         merged.append(rec)
     return merged
+
+
+def filter_unseen(records, cache):
+    """Drop records whose normalized title is already in the seen-cache."""
+    return [r for r in records if normalize_title(r.get("title")) not in cache]
+
+
+def select_diverse_top_n(records, n):
+    """Pick up to n records, newest year first, preferring one per distinct
+    venue before allowing a second paper from the same venue."""
+    records_sorted = sorted(records, key=lambda r: r.get("year") or 0, reverse=True)
+    selected, leftovers, used_venues = [], [], set()
+    for r in records_sorted:
+        if len(selected) >= n:
+            break
+        v = r.get("venue")
+        if v not in used_venues:
+            selected.append(r)
+            used_venues.add(v)
+        else:
+            leftovers.append(r)
+    for r in leftovers:
+        if len(selected) >= n:
+            break
+        selected.append(r)
+    return selected
 
 
 def load_cache(path):
