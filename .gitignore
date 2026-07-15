@@ -1,4 +1,5 @@
 output/
+local_reports/
 *.log
 __pycache__/
 *.pyc
