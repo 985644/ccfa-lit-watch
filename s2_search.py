@@ -20,6 +20,10 @@ def _match_venue(venue_str):
         return None
     v = venue_str.lower()
     for canonical, alias in _ALIAS_INDEX:
+        # Avoid treating journals whose names merely contain "Artif. Intell."
+        # (notably Engineering Applications of AI) as the CCF-A AIJ venue.
+        if canonical == "AIJ" and alias == "artif. intell." and v != alias:
+            continue
         if alias in v:
             return canonical
     return None

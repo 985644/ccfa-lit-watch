@@ -16,6 +16,10 @@ def _match_venue(venue_str):
         return None
     v = venue_str.lower()
     for canonical, alias in _ALIAS_INDEX:
+        # DBLP abbreviates Engineering Applications of Artificial Intelligence as
+        # "Eng. Appl. Artif. Intell."; it is not the CCF-A AIJ venue.
+        if canonical == "AIJ" and alias == "artif. intell." and v != alias:
+            continue
         if alias in v:
             return canonical
     return None

@@ -90,10 +90,10 @@
     "first_seen": "2026-07-15T07:45:07.656598+00:00"
   },
   "balanced anomaly guided ego graph diffusion model for inductive graph anomaly detection": {
-    "title": "Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection.",
+    "title": "Balanced Anomaly-guided Ego-graph Diffusion Model for Inductive Graph Anomaly Detection",
     "venue": "SIGKDD",
     "year": 2026,
-    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+    "first_seen": "2026-07-15T08:34:51.363737+00:00"
   },
   "anomaly edge detection in dynamic graphs based on hyperbolic graph neural networks": {
     "title": "Anomaly Edge Detection in Dynamic Graphs Based on Hyperbolic Graph Neural Networks.",
@@ -111,7 +111,7 @@
     "title": "How to use Graph Data in the Wild to Help Graph Anomaly Detection?",
     "venue": "SIGKDD",
     "year": 2025,
-    "first_seen": "2026-07-15T07:45:07.656598+00:00"
+    "first_seen": "2026-07-15T08:34:51.363737+00:00"
   },
   "chi square wavelet graph neural networks for heterogeneous graph anomaly detection": {
     "title": "Chi-Square Wavelet Graph Neural Networks for Heterogeneous Graph Anomaly Detection.",
@@ -214,5 +214,35 @@
     "venue": "SIGIR",
     "year": 2024,
     "first_seen": "2026-07-15T07:45:07.656598+00:00"
+  },
+  "dynamic spectral graph anomaly detection": {
+    "title": "Dynamic Spectral Graph Anomaly Detection",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-15T08:34:51.363737+00:00"
+  },
+  "iq guard an effective and noise resistant framework for graph fraud detection on iqiyi platform": {
+    "title": "iQ-Guard: An Effective and Noise-Resistant Framework for Graph Fraud Detection on iQIYI Platform",
+    "venue": "WWW",
+    "year": 2026,
+    "first_seen": "2026-07-21T11:28:45.684954+00:00"
+  },
+  "a label free heterophily guided approach for unsupervised graph fraud detection": {
+    "title": "A Label-Free Heterophily-Guided Approach for Unsupervised Graph Fraud Detection",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-21T11:28:45.684954+00:00"
+  },
+  "enhancing attribute driven fraud detection with risk aware graph representation": {
+    "title": "Enhancing Attribute-Driven Fraud Detection With Risk-Aware Graph Representation",
+    "venue": "TKDE",
+    "year": 2025,
+    "first_seen": "2026-07-21T11:28:45.684954+00:00"
+  },
+  "grad guided relation diffusion generation for graph augmentation in graph fraud detection": {
+    "title": "Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection",
+    "venue": "WWW",
+    "year": 2025,
+    "first_seen": "2026-07-21T11:28:45.684954+00:00"
   }
 }
