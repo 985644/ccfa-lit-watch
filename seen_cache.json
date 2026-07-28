@@ -244,5 +244,41 @@
     "venue": "WWW",
     "year": 2025,
     "first_seen": "2026-07-21T11:28:45.684954+00:00"
+  },
+  "federated graph anomaly detection via disentangled representation learning": {
+    "title": "Federated Graph Anomaly Detection via Disentangled Representation Learning",
+    "venue": "WWW",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "context correlation discrepancy analysis for graph anomaly detection": {
+    "title": "Context Correlation Discrepancy Analysis for Graph Anomaly Detection",
+    "venue": "TKDE",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "explainable and fine grained safeguarding of llm multi agent systems via bi level graph anomaly detection": {
+    "title": "Explainable and Fine-Grained Safeguarding of LLM Multi-Agent Systems via Bi-Level Graph Anomaly Detection",
+    "venue": "ACL",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "curvgad leveraging curvature for enhanced graph anomaly detection": {
+    "title": "CurvGAD: Leveraging Curvature for Enhanced Graph Anomaly Detection",
+    "venue": "ICML",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "federated graph anomaly detection through contrastive learning with global negative pairs": {
+    "title": "Federated Graph Anomaly Detection Through Contrastive Learning with Global Negative Pairs",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "graph compression for interpretable graph neural network inference at scale": {
+    "title": "Graph Compression for Interpretable Graph Neural Network Inference At Scale",
+    "venue": "VLDB",
+    "year": 2025,
+    "first_seen": "2026-07-28T16:02:47.719110+00:00"
   }
 }
