@@ -280,5 +280,29 @@
     "venue": "VLDB",
     "year": 2025,
     "first_seen": "2026-07-28T16:02:47.719110+00:00"
+  },
+  "unifying graph out of distribution generalization and detection through spectral contrastive invariant learning": {
+    "title": "Unifying Graph Out-of-Distribution Generalization and Detection through Spectral Contrastive Invariant learning",
+    "venue": "WWW",
+    "year": 2026,
+    "first_seen": "2026-08-05T09:04:56.633756+00:00"
+  },
+  "evolving graph learning for out of distribution generalization in non stationary environments": {
+    "title": "Evolving Graph Learning for Out-of-Distribution Generalization in Non-Stationary Environments",
+    "venue": "TPAMI",
+    "year": 2025,
+    "first_seen": "2026-08-05T09:04:56.633756+00:00"
+  },
+  "gi graph a generative invariant graph learning scheme towards out of distribution generalization": {
+    "title": "GI-Graph: A Generative Invariant Graph Learning Scheme Towards Out-of-Distribution Generalization",
+    "venue": "TKDE",
+    "year": 2025,
+    "first_seen": "2026-08-05T09:04:56.633756+00:00"
+  },
+  "uncertainty aware disentangled dynamic graph attention network for out of distribution generalization": {
+    "title": "Uncertainty-Aware Disentangled Dynamic Graph Attention Network for Out-of-Distribution Generalization",
+    "venue": "TPAMI",
+    "year": 2025,
+    "first_seen": "2026-08-05T09:04:56.633756+00:00"
   }
 }
