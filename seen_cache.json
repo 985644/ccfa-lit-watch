@@ -322,5 +322,17 @@
     "venue": "NeurIPS",
     "year": 2025,
     "first_seen": "2026-08-10T09:27:34.149789+00:00"
+  },
+  "global attribute association pattern aggregation for graph fraud detection": {
+    "title": "Global Attribute-Association Pattern Aggregation for Graph Fraud Detection",
+    "venue": "AAAI",
+    "year": 2025,
+    "first_seen": "2026-08-24T09:15:30.058022+00:00"
+  },
+  "association focused path aggregation for graph fraud detection": {
+    "title": "Association-Focused Path Aggregation for Graph Fraud Detection",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "first_seen": "2026-08-24T09:15:30.058022+00:00"
   }
 }
